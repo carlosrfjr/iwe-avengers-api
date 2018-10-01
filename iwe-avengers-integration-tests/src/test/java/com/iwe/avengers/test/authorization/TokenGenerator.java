@@ -12,6 +12,7 @@ import com.amazonaws.services.cognitoidp.model.InitiateAuthResult;
 import com.amazonaws.services.cognitoidp.model.RespondToAuthChallengeRequest;
 import com.amazonaws.services.cognitoidp.model.RespondToAuthChallengeResult;
 
+
 public class TokenGenerator {
 
 	public String getToken() {

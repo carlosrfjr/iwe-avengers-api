@@ -1,16 +1,13 @@
-22:24:10.421 karate.env system property was: null 
-22:24:12.278 request:
-1 > GET https://qloka5918k.execute-api.us-east-1.amazonaws.com/dev/avengers/anyid
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Host: qloka5918k.execute-api.us-east-1.amazonaws.com
-1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_112)
-
-22:24:12.914 response time in milliseconds: 629
-1 < 401
-1 < Connection: keep-alive
-1 < Content-Length: 26
-1 < Content-Type: application/json
+18:47:58.751 karate.env system property was: null 
+18:47:58.789 karate.env system property was: null 
+18:47:58.800 karate.env system property was: null 
+18:47:58.820 karate.env system property was: null 
+18:47:58.838 karate.env system property was: null 
+18:47:58.849 karate.env system property was: null 
+18:47:58.860 karate.env system property was: null 
+18:47:58.870 karate.env system property was: null 
+18:47:58.880 karate.env system property was: null 
+ication/json
 1 < Date: Fri, 28 Sep 2018 01:24:12 GMT
 1 < x-amz-apigw-id: N6FdZEmgIAMFw-w=
 1 < x-amzn-ErrorType: UnauthorizedException

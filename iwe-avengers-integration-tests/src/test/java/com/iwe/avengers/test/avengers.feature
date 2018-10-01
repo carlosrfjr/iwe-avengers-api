@@ -12,6 +12,12 @@ function() {
 """
 * def token = call getToken
 
+Scenario: Should return non-authorized access
+
+Given path 'avengers', 'anyid' 
+And header Authorization = 'Bearer ' + token + 'a'
+When method get
+Then status 403
 
 Scenario: Should return non-authenticated access
 
