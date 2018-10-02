@@ -67,7 +67,7 @@ Scenario: Deletes the Avenger by Id
 
 #Create a new Avenger
 Given path 'avengers'
-#And header Authorization = 'Bearer ' + token
+And header Authorization = 'Bearer ' + token
 And request {name: 'Hulk', secretIdentity: 'Bruce Banner'}
 When method post
 Then status 201
@@ -76,7 +76,7 @@ Then status 201
 
 #Delete the Avenger
 Given path 'avengers', avengerToDelete.id
-#And header Authorization = 'Bearer ' + token
+And header Authorization = 'Bearer ' + token
 When method delete
 Then status 204
 
@@ -97,7 +97,7 @@ Scenario: Updates the Avenger data
 
 #Create a new Avenger
 Given path 'avengers'
-#And header Authorization = 'Bearer ' + token
+And header Authorization = 'Bearer ' + token
 And request {name: 'Captain', secretIdentity: 'Steve'}
 When method post
 Then status 201
@@ -106,7 +106,7 @@ Then status 201
 
 #Updates Avenger
 Given path 'avengers', avengerToUpdate.id
-#And header Authorization = 'Bearer ' + token
+And header Authorization = 'Bearer ' + token
 And request {name: 'Captain America', secretIdentity: 'Steve Rogers'}
 When method put
 Then status 200
